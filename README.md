@@ -1,1 +1,1 @@
-A Website that is meant to host the ICHICNN 2022 that is organised by Mohan Babu University.
+A Website that is meant to host the ICCIET 2025 that is organised by Mohan Babu University.

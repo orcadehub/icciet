@@ -7,7 +7,7 @@ document.getElementById('header').innerHTML = `
         <a href="/" class="navbar-brand d-flex align-items-center">
           <img src="./images/mbulogo.png" width="100" height="60" alt="home" class="rounded" />
           <h1 class="text-white mx-3 mb-0">
-            IC3T <strong style="color: #F0C38E;">2025</strong>
+            ICCIET <strong style="color: #F0C38E;">2025</strong>
           </h1>
         </a>
 
@@ -41,7 +41,7 @@ document.getElementById('header').innerHTML = `
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="about-dropdown">
                 <li><a class="dropdown-item" href="Institution.html">About University</a></li>
                 <li><a class="dropdown-item" href="department.html">About SET</a></li>
-                <li><a class="dropdown-item" href="#about-conf">About Conference</a></li>
+                <li><a class="dropdown-item" href="conference.html">About Conference</a></li>
               </ul>
             </li>
             <li class="nav-item"><a href="callforpapers.html" class="nav-link text-white">Call For Papers</a></li>

@@ -10,6 +10,60 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <style>
+      /* Custom styles for a lavish design */
+      .speaker-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: none;
+        border-radius: 15px;
+        overflow: hidden;
+        background: linear-gradient(145deg, #ffffff, #f8f9fa);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .speaker-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      }
+      .speaker-card img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+      .speaker-card .card-body {
+        padding: 1.5rem;
+        text-align: center;
+      }
+      .speaker-card .card-title {
+        color: #ff69b4;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+      .speaker-card .card-subtitle {
+        color: #343a40;
+        font-size: 1.25rem;
+        margin-bottom: 0.75rem;
+      }
+      .speaker-card .card-text {
+        color: #6c757d;
+        font-size: 1rem;
+      }
+      .section-title {
+        color: #ff69b4;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 3px solid #17a2b8;
+        padding-bottom: 10px;
+      }
+      @media (max-width: 768px) {
+        .speaker-card img {
+          height: 250px;
+        }
+      }
+    </style>
     <title>Registration</title>
   </head>
   <body>
@@ -17,104 +71,66 @@
 
     <!-- Keynote Speakers -->
     <div class="container my-5">
-      <h1 class="display-4 text-center mb-4">Keynote Speakers</h1>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <h1 class="display-4 text-center mb-4 section-title">Keynote Speakers</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col">
-          <div class="card h-100">
-            <img
-              src="./images/ab.jpg"
-              class="card-img-top"
-              alt="abimage"
-              style="height: 300px; width: 100%; object-fit: cover"
-            />
-            <div class="card-body">
-              <h3 class="card-title text-danger">Chief Guest</h3>
-              <h4 class="card-subtitle mb-2">Shri. Aninda Bose</h4>
-              <p class="card-text">
-                Executive Editor, Interdisciplinary Applied Sciences,
-                Computational Intelligence, Energy Springer Nature, London
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
+          <div class="card speaker-card h-100">
             <img
               src="./images/aninda.jpg"
               class="card-img-top"
-              alt="abimage"
-              style="height: 300px; width: 100%; object-fit: cover"
+              alt="Dr. Sam Goundar"
             />
             <div class="card-body">
               <h4 class="card-subtitle mb-2">Dr. Sam Goundar</h4>
-              <p class="card-text">Professor RMIT University Australia</p>
+              <p class="card-text">Professor, RMIT University, Australia</p>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card h-100">
+          <div class="card speaker-card h-100">
             <img
               src="./images/surya.jpg"
               class="card-img-top"
-              alt="abimage"
-              style="height: 300px; width: 100%; object-fit: cover"
+              alt="SuryaPrakash, Nallur"
             />
             <div class="card-body">
               <h4 class="card-subtitle mb-2">SuryaPrakash, Nallur</h4>
               <p class="card-text">
-                Senior Vice President Large Financial Corporation Texas, USA
+                Senior Vice President, Large Financial Corporation, Texas, USA
               </p>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card h-100">
+          <div class="card speaker-card h-100">
             <img
               src="./images/kishore.jpg"
               class="card-img-top"
-              alt="abimage"
-              style="height: 300px; width: 100%; object-fit: cover"
+              alt="Dr. T. Kishore Kumar"
             />
             <div class="card-body">
               <h4 class="card-subtitle mb-2">Dr. T. Kishore Kumar</h4>
               <p class="card-text">
-                Professor, ECE, NIT, Warangal - 506004, Telangana, INDIA
+                Professor, ECE, NIT, Warangal, Telangana, India
               </p>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card h-100">
+          <div class="card speaker-card h-100">
             <img
               src="./images/sr.png"
               class="card-img-top"
-              alt="abimage"
-              style="height: 300px; width: 100%; object-fit: cover"
+              alt="Dr. K. Srujan Raju"
             />
             <div class="card-body">
               <h4 class="card-subtitle mb-2">Dr. K. Srujan Raju</h4>
               <p class="card-text">
                 Dean (T&P) & HOD, Dept. of CSE, CMR Technical Campus, Hyderabad
               </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img
-              src="./images/harsha.jpg"
-              class="card-img-top"
-              alt="abimage"
-              style="height: 300px; width: 100%; object-fit: cover"
-            />
-            <div class="card-body">
-              <h4 class="card-subtitle mb-2">Harshavardhan Nerella</h4>
-              <p class="card-text">Senior Cloud Engineer, Austin, TX, USA</p>
             </div>
           </div>
         </div>
