@@ -7,71 +7,199 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="./images/mbulogo.png" type="image/x-icon" />
     <title>Submit Paper - IC3T 2025</title>
     <style>
-      .submission-link a {
-        font-size: 1.25rem;
-        color: #007bff;
-        text-decoration: none;
+      .badge-criteria {
+        font-size: 0.95rem;
+        padding: 0.38em 0.8em;
+        background: #e5f6fe;
+        color: #31708f;
+        border-radius: 1rem;
+        margin-right: 0.5em;
       }
-      .submission-link a:hover {
-        text-decoration: underline;
+      .card-header {
+        background: #f7fbfd;
+        font-weight: 600;
       }
     </style>
   </head>
   <body class="bg-light">
     <div id="header"></div>
-
-    <section
-      class="container my-5 bg-white shadow-lg p-4 rounded-3"
-      data-aos="fade-up"
-    >
+    <section class="container my-5 bg-white shadow-lg p-4 rounded-3" data-aos="fade-up">
       <div class="text-center border-bottom border-info border-3 mb-4">
-        <h2 class="text-info">Submit Paper</h2>
+        <h2 class="text-info mb-2">Submit Paper</h2>
       </div>
-      <div class="text-justify px-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="px-3 mb-5" data-aos="fade-up" data-aos-delay="100">
         <p>
-          The Microsoft CMT service was used for managing the peer-reviewing
-          process for this conference. This service was provided for free by
-          Microsoft and they bore all expenses, including costs for Azure cloud
-          services as well as for software development and support.
+          The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
         </p>
         <p>
-          Submitted papers should not have been previously published nor be
-          currently under consideration for publication elsewhere. All
-          submissions will be thoroughly peer-reviewed by experts based on
-          originality, significance, and clarity. Only papers presenting novel
-          research results or successful innovative applications will be
-          considered for publication in the conference proceedings. Kindly
-          ensure that your paper is formatted as per <a href="CRC-NEW-(Template).docx">taylor & francis Template</a>, not
-          exceeding 8 pages written in A4 size.
+          Submitted papers should not have been previously published nor be currently under consideration for publication elsewhere. All submissions will be thoroughly peer-reviewed by experts based on originality, significance, and clarity. Only papers presenting novel research results or successful innovative applications will be considered for publication in the conference proceedings. Kindly ensure that your paper is formatted as per <a href="CRC-NEW-(Template).docx">taylor & francis Template</a>, not exceeding 8 pages written in A4 size.
         </p>
+        <div class="bg-light border rounded-3 p-3 mt-4">
+          <h5 class="text-success mb-2">Publication of Conference Proceedings</h5>
+          <p class="mb-0">
+            All the accepted and presented papers will be published in scopus-indexed Taylor & Francis series.
+            <!-- Per your instruction, do not mention CRC Taylor & Francis. -->
+          </p>
+        </div>
       </div>
-      <div
-        class="text-center submission-link mt-4"
-        data-aos="fade-up"
-        data-aos-delay="200"
-      >
+
+      <!-- Author Guidelines Section -->
+      <section>
+        <div class="text-center mt-5 mb-4">
+          <h3 class="text-primary">Author Guidelines</h3>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-info">Submission Policy</div>
+              <div class="card-body">
+                <ul>
+                  <li>Only original research papers are accepted.</li>
+                  <li>Review papers and short notes are not eligible.</li>
+                  <li>Papers must follow the conference's prescribed format.</li>
+                  <li>Non-compliant papers will not be considered for review.</li>
+                  <li>Multiple submissions are strictly prohibited.</li>
+                  <li>Papers must not be published or submitted elsewhere.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-info">Plagiarism Policy</div>
+              <div class="card-body">
+                <ul>
+                  <li>Papers with less than <span class="badge bg-success">13%</span> plagiarism pass to review.</li>
+                  <li>
+                    <span class="badge bg-warning text-dark">21-30%</span> plagiarism: returned for reduction and resubmission.
+                  </li>
+                  <li>
+                    <span class="badge bg-danger">31%+</span> plagiarism: rejected outright.
+                  </li>
+                  <li>Plagiarism check excludes references and biographies.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-info">Review Policy</div>
+              <div class="card-body">
+                <ul>
+                  <li>Papers undergo single-blind review by at least two independent experts.</li>
+                  <li>Reports submitted within the review timeline.</li>
+                  <li>TPC oversees the process; reviewers receive certificates.</li>
+                  <li>Reviewers must be research scholars or PhD holders.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-info">Acceptance Policy</div>
+              <div class="card-body">
+                <ul>
+                  <li>Papers must meet criteria for quality, novelty, research objectives, language, presentation, validation, analysis, and references.</li>
+                  <li>Acceptance communicated via CMT system.</li>
+                  <li>Minor revisions may be requested before final acceptance.</li>
+                  <li>Authors of rejected papers are notified immediately.</li>
+                  <li>Final decision by the track's dedicated committee.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4 g-4">
+          <div class="col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-info">Registration Policy</div>
+              <div class="card-body">
+                <ul>
+                  <li>At least one author must register for accepted papers.</li>
+                  <li>Registration is required for presentation and proceedings inclusion.</li>
+                  <li>Fee includes kit, presentation, certificate, and proceedings.</li>
+                  <li>Fee varies by track; detailed info via registration desk.</li>
+                  <li>Payment and details sent in acceptance letter.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-info">Presentation Policy</div>
+              <div class="card-body">
+                <ul>
+                  <li>All registered authors present a 15-min PowerPoint in offline mode.</li>
+                  <li>Limited online presentations may be allowed under valid reasons, upon permission.</li>
+                  <li>Presentations: 12 min talk + 3 min Q&A.</li>
+                  <li>Prepare concise PowerPoint to fit the time.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <div class="card">
+            <div class="card-header text-info">Malpractice Statement</div>
+            <div class="card-body">
+              <p>
+                ICCIET'25 upholds the highest standards of academic integrity. Plagiarism, data falsification, redundant publication, or unethical behavior are strictly prohibited. All parties must adhere to ethical guidelines and maintain transparency, originality, and honesty. Suspected malpractice will be investigated and may lead to exclusion or retraction.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-5" />
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-success">Selection Criteria</div>
+              <div class="card-body">
+                <ul>
+                  <li><span class="badge-criteria">Relevance</span> to conference theme.</li>
+                  <li><span class="badge-criteria">Originality & Innovation</span> in research or application.</li>
+                  <li><span class="badge-criteria">Academic Rigor</span>: sound objectives, methodology, and findings.</li>
+                  <li><span class="badge-criteria">Clarity & Structure</span> in writing and organization.</li>
+                  <li><span class="badge-criteria">Impact & Contribution</span> to the field or ongoing advances.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-danger">Rejection Criteria</div>
+              <div class="card-body">
+                <ul>
+                  <li>Non-alignment with conference themes.</li>
+                  <li>Plagiarism or ethical violations.</li>
+                  <li>Lack of originality or recycled work without new contributions.</li>
+                  <li>Poor quality, insufficient detail, or weak methodology.</li>
+                  <li>Failure to meet submission/formating guidelines.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center submission-link mt-4" data-aos="fade-up" data-aos-delay="200">
+        <!-- Optional: Submit button or link -->
+        <!-- <a href="#" class="btn btn-info btn-lg">Submit Your Paper</a> -->
       </div>
     </section>
-
     <div id="footer"></div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
