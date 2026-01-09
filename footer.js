@@ -8,14 +8,14 @@ document.getElementById('footer').innerHTML = `
         </p>
         <div>
           <span style="color: #f0c38e;">Mail to :</span>
-          <span class="lead">icciet.mbu2025@gmail.com</span>
+          <span class="lead">icciet.mbu2026@gmail.com</span>
         </div>
       </div>
     </div>
   </div>
   <div class="container-fluid p-4 text-center bg-light text-dark">
     <span>
-      &copy; copyright <strong>ICCIET2025</strong>, All Rights Reserved
+      &copy; copyright <strong>ICCIET2026</strong>, All Rights Reserved
     </span>
     <p class="mt-4 mb-0" style="font-size: 18px; background-color: white;">
       Developed By

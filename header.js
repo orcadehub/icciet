@@ -7,7 +7,7 @@ document.getElementById('header').innerHTML = `
         <a href="/" class="navbar-brand d-flex align-items-center">
           <img src="./images/mbulogo.png" width="100" height="60" alt="home" class="rounded" />
           <h1 class="text-white mx-3 mb-0">
-            ICCIET <strong style="color: #F0C38E;">2025</strong>
+            ICCIET <strong style="color: #F0C38E;">2026</strong>
           </h1>
         </a>
 
